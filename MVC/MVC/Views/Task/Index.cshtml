@@ -1,0 +1,80 @@
+﻿@model IEnumerable<MVC.EF.DAL.Task>
+
+@{
+    Layout = "~/Views/_LayoutPage1.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    @*<link href="~/js/bootstrap.css" rel="stylesheet" />
+    <script src="~/js/bootstrap.js"></script>
+    <script src="~/js/jquery-1.7.js"></script>*@
+</head>
+<body>
+    <p>
+        @Html.ActionLink("添加", "Create")
+    </p>
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.passward)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.isdelete)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.sex)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.tim)
+
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.age)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.passward)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.isdelete)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.sex)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.tim)
+
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.age)
+                </td>
+                <td>
+                    @Html.ActionLink("修改", "Edit", new { id = item.TaskID }) |
+                    @Html.ActionLink("详情", "Details", new { id = item.TaskID }) |
+                    @Html.ActionLink("删除", "Delete", new { id = item.TaskID }) 
+                  
+                </td>
+            </tr>
+        }
+
+    </table>
+    
+</body>
+
+</html>

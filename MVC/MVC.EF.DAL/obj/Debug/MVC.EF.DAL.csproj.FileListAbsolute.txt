@@ -1,0 +1,12 @@
+C:\Users\W\Source\Repos\MVC\MVC.EF.DAL\bin\Debug\MVC.EF.DAL.dll.config
+C:\Users\W\Source\Repos\MVC\MVC.EF.DAL\bin\Debug\MVC.EF.DAL.dll
+C:\Users\W\Source\Repos\MVC\MVC.EF.DAL\bin\Debug\MVC.EF.DAL.pdb
+C:\Users\W\Source\Repos\MVC\MVC.EF.DAL\bin\Debug\EntityFramework.dll
+C:\Users\W\Source\Repos\MVC\MVC.EF.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\W\Source\Repos\MVC\MVC.EF.DAL\bin\Debug\EntityFramework.xml
+C:\Users\W\Source\Repos\MVC\MVC.EF.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\W\Source\Repos\MVC\MVC.EF.DAL\obj\Debug\MVC.EF.DAL.csproj.CoreCompileInputs.cache
+C:\Users\W\Source\Repos\MVC\MVC.EF.DAL\obj\Debug\MVC.EF.DAL.csproj.CopyComplete
+C:\Users\W\Source\Repos\MVC\MVC.EF.DAL\obj\Debug\MVC.EF.DAL.dll
+C:\Users\W\Source\Repos\MVC\MVC.EF.DAL\obj\Debug\MVC.EF.DAL.pdb
+C:\Users\W\Source\Repos\MVC\MVC.EF.DAL\bin\Debug\HPIT.Data.Core.dll
