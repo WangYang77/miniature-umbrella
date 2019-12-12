@@ -1,0 +1,35 @@
+
+记录时间：2019-12-12 10:16:46,268 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"TaskID":1,"name":"张三","passward":123456,"isdelete":0,"sex":"男","tim":"2019-12-11T16:25:55.777","age":18}登陆了系统！
+ 
+
+记录时间：2019-12-12 10:27:22,592 
+线程ID:[26] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"TaskID":1,"name":"张三","passward":123456,"isdelete":0,"sex":"男","tim":"2019-12-11T16:25:55.777","age":18}登录
+ 
+
+记录时间：2019-12-12 10:29:14,184 
+线程ID:[24] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"TaskID":1,"name":"张三","passward":123456,"isdelete":0,"sex":"男","tim":"2019-12-11T16:25:55.777","age":18}登录
+ 
+
+记录时间：2019-12-12 10:30:02,184 
+线程ID:[14] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"TaskID":1,"name":"张三","passward":123456,"isdelete":0,"sex":"男","tim":"2019-12-11T16:25:55.777","age":18}登录
+ 
+
+记录时间：2019-12-12 10:30:53,240 
+线程ID:[7] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"TaskID":1,"name":"张三","passward":123456,"isdelete":0,"sex":"男","tim":"2019-12-11T16:25:55.777","age":18}登录
+ 

@@ -36,24 +36,18 @@ namespace MVC.EF.DAL
             db.Task.Remove(num.ToList()[0]);
             return db.SaveChanges();
         }
-       
-       
+        public List<Task> LoginSel(string name,int passward)
+        {
+            DateLoginTask db = new DateLoginTask();
+            var query = db.Task.Where(o => o.name == name && o.passward==passward).ToList();
+            //var prod = from u in db.Task
+            //           where u.passward.ToString().Contains(passward.ToString())
+            //           && u.name.Contains(name)
+            //           select u;
+                return query;
+        }
 
-        //public int UpUser(Task task)
-        //{
-        //    DateLoginTask db = new DateLoginTask();
-        //    //1.将实体对象加入EF对象容器中，并获取伪包装类对象
-        //    Task task = db.Task(task);
-        //    DbEntityEntry entry = db.Entry(task);
-        //    //2.将包装类对象的状态设置为unchanged
-        //    entry.State = System.Data.Entity.EntityState.Unchanged;
-        //    //3.设置 被改变的属性
-        //    entry.Property(a => a.Name).IsModified = true;
-        //    entry.Property(a => a.name).IsModified = true;
-        //    //4.提交到数据库
-        //    db.SaveChanges();
-        //    return db.SaveChanges();
-        //}
+       
 
     }
 }

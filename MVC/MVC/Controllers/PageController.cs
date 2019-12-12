@@ -8,10 +8,12 @@ namespace MVC.Controllers
     public class PageController : Controller
     {
         // GET: Page
+        
         public ActionResult Index()
         {
             return View();
         }
+        
         public DeluxeJsonResult QueryPageData(SearchModel<Task> search)
         {
             int total = 0;

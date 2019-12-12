@@ -1,0 +1,48 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <script src="~/js/jquery-1.7.js"></script>
+    <script src="~/js/jquery.tmpl.js"></script>
+  
+</head>
+<body>
+    <div>
+        <input id="name" type="text" />
+        <br />
+        <input id="pwd" type="text" />
+        <br />
+        <input id="btn" type="button" value="button" />
+    </div>
+    <script>
+        $(document).ready(function () {
+            $("#btn").on("click", function () {
+                var name = $("#name").val();
+                var pwd = $("#pwd").val();
+                //ajax
+                $.ajax({
+                    url: "LoginIn",
+                    type: "post",
+                    dateType:"json",
+                    data: { "name": name, "pwd": pwd },
+                    success: function (json) {
+                        if (json.state == 200) {
+                            window.location.href = "../Page/Index";
+                        } else {
+                            alert(json.state);
+                        }
+                    }
+                })
+            })
+        })
+    </script>
+</body>
+
+</html>

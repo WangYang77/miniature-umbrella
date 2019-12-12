@@ -10,3 +10,16 @@ C:\Users\W\Source\Repos\MVC\MVC.EF.DAL\obj\Debug\MVC.EF.DAL.csproj.CopyComplete
 C:\Users\W\Source\Repos\MVC\MVC.EF.DAL\obj\Debug\MVC.EF.DAL.dll
 C:\Users\W\Source\Repos\MVC\MVC.EF.DAL\obj\Debug\MVC.EF.DAL.pdb
 C:\Users\W\Source\Repos\MVC\MVC.EF.DAL\bin\Debug\HPIT.Data.Core.dll
+E:\练习\miniature-umbrella\MVC\MVC.EF.DAL\bin\Debug\MVC.EF.DAL.dll.config
+E:\练习\miniature-umbrella\MVC\MVC.EF.DAL\bin\Debug\MVC.EF.DAL.dll
+E:\练习\miniature-umbrella\MVC\MVC.EF.DAL\bin\Debug\MVC.EF.DAL.pdb
+E:\练习\miniature-umbrella\MVC\MVC.EF.DAL\bin\Debug\EntityFramework.dll
+E:\练习\miniature-umbrella\MVC\MVC.EF.DAL\bin\Debug\EntityFramework.SqlServer.dll
+E:\练习\miniature-umbrella\MVC\MVC.EF.DAL\bin\Debug\EntityFramework.xml
+E:\练习\miniature-umbrella\MVC\MVC.EF.DAL\bin\Debug\EntityFramework.SqlServer.xml
+E:\练习\miniature-umbrella\MVC\MVC.EF.DAL\obj\Debug\MVC.EF.DAL.csproj.CoreCompileInputs.cache
+E:\练习\miniature-umbrella\MVC\MVC.EF.DAL\obj\Debug\MVC.EF.DAL.csproj.CopyComplete
+E:\练习\miniature-umbrella\MVC\MVC.EF.DAL\obj\Debug\MVC.EF.DAL.dll
+E:\练习\miniature-umbrella\MVC\MVC.EF.DAL\obj\Debug\MVC.EF.DAL.pdb
+E:\练习\miniature-umbrella\MVC\MVC.EF.DAL\bin\Debug\log4net.dll
+E:\练习\miniature-umbrella\MVC\MVC.EF.DAL\bin\Debug\log4net.xml

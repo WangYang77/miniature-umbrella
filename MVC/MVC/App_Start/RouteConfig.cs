@@ -13,11 +13,11 @@ namespace MVC
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
-            routes.MapRoute(
-               name: "Defnow",
-               url: "{tss}/{pwh}/{tsm}",
-               defaults: new { controller = "Task", action = "Index", id = UrlParameter.Optional }
-           );
+           // routes.MapRoute(
+           //    name: "Defnow",
+           //    url: "{tss}/{pwh}/{tsm}",
+           //    defaults: new { controller = "Task", action = "Index", id = UrlParameter.Optional }
+           //);
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",

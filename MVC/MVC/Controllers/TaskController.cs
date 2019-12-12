@@ -7,6 +7,7 @@ namespace MVC.Controllers
     public class TaskController : Controller
     {
         // GET: Task
+        [AllowAnonymous]
         public ActionResult Index()
         {
             TaskDal taskDal = new TaskDal();
